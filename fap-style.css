@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: silver; */
+}
+
+.main-page {
+    position: relative;
+    background: #F5F5F2;
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+.fa-motorcycle {
+    position: absolute;
+    top: 19px;
+    left: 40px;
+    /* left: 3.99%;
+    right: 93.51%;
+    top: 1.57%;
+    bottom: 94.4%; */
+
+    font-size: 25px;
+}
+
+.DMS {
+    position: absolute;
+    left: 80px;
+    top: 19px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+
+    color: #030026;
+}
+
+.bike-man {
+    position: absolute;
+    /* width: 157px; */
+    /* height: 157px; */
+    left: 250px;
+    top: 91px;
+}
+
+.let {
+    position: absolute;
+    /* height: 104px; */
+    top: 200px;
+    right: 58%;
+    left: 7%;
+    /* left: 32px; */
+
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+
+    /* Colors / Black / 100% */
+    color: #000000;
+}
+
+.logistics {
+    position: absolute;
+    /* height: 104px; */
+    top: 325px;
+    right: 58%;
+    left: 7%;
+    /* left: 32px; */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 18px;
+    /* line-height: 52px; */
+    text-align: center;
+
+    /* Colors / Black / 100% */
+    color: #000000;
+
+}
+
+.get-started {
+    position: absolute;
+    width: 126px;
+    height: 44px;
+    left: 250px;
+    top: 450px;
+
+    background-color: #06b;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+
+}
+
+.main {
+    display: flex;
+    /* flex: 50%; */
+    flex-wrap: wrap;
+    /* border: 10px;
+    border-color: blue; */
+}
+
+.main-2 {
+    display: flex;
+    flex: 50%;
+    /*border: 10px;
+    border-color: blue; */
+}
