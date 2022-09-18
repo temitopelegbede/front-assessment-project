@@ -1,29 +1,23 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    /* background-color: silver; */
+    background-color: silver;
 }
 
 .main-page {
     position: relative;
-    background: #F5F5F2;
-    /*display: flex;
-    flex-wrap: wrap;*/
+    /* display: flex; */
+    /*flex-wrap: wrap;*/
 }
 
 .fa-motorcycle {
     position: absolute;
     top: 19px;
     left: 40px;
-    /* left: 3.99%;
-    right: 93.51%;
-    top: 1.57%;
-    bottom: 94.4%; */
-
     font-size: 25px;
 }
 
@@ -37,26 +31,20 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 20px;
-
-    color: #030026;
 }
 
 .bike-man {
     position: absolute;
-    /* width: 157px; */
-    /* height: 157px; */
     left: 250px;
-    top: 91px;
+    top: 120px;
 }
 
 .let {
     position: absolute;
     /* height: 104px; */
-    top: 200px;
+    top: 250px;
     right: 58%;
     left: 7%;
-    /* left: 32px; */
-
 
     font-family: 'DM Sans';
     font-style: normal;
@@ -72,10 +60,9 @@ body {
 .logistics {
     position: absolute;
     /* height: 104px; */
-    top: 325px;
+    top: 380px;
     right: 58%;
     left: 7%;
-    /* left: 32px; */
 
     font-family: 'DM Sans';
     font-style: normal;
@@ -94,26 +81,133 @@ body {
     width: 126px;
     height: 44px;
     left: 250px;
-    top: 450px;
+    top: 500px;
 
     background-color: #06b;
     color: #ffffff;
     cursor: pointer;
     border: none;
+    border-radius: 10px;
 
 }
 
-.main {
+.form {
     display: flex;
-    /* flex: 50%; */
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding: 30px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 512px;
+    height: 650px;
+    left: 774px;
+    top: 50px;
+    
+    background: white;
+    border-color: #06b;
+    border-radius: 20px;
+}
+
+/* H2 - Header 2 - 28pt Black Roboto */
+.basic-info{
+/* width: 237px;
+height: 36px; */
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 36px;
+
+color: #393939;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.enter{
+width: 206px;
+height: 16px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: black;
+
+/* Inside auto layout */
+/* flex: none;
+order: 1;
+flex-grow: 0; */
+}
+
+.form-main{
+    display: flex;
     flex-wrap: wrap;
-    /* border: 10px;
-    border-color: blue; */
 }
 
-.main-2 {
+.form-fill{
+display: flex;
+flex-direction: column;
+/* flex-wrap: wrap; */
+/* align-items: flex-start; */
+padding: 10px;
+gap: 20px;
+width: 100%;
+
+position: absolute;
+/*left: 0%;
+right: 50%;
+top: 150px;
+top: 25%;
+bottom: 50.12%;
+bottom: 80%; */
+
+/* background: #FFFFFF; */
+/* box-sizing: border-box; */
+border: 1px solid #E2E2EA;
+border-radius: 10px;
+}
+
+input{
+    border-radius: 7px;
+    height: 40px;
+    padding-left: 3px;
+    border: 1px solid #E2E2EA;
+}
+
+.name{
     display: flex;
-    flex: 50%;
-    /*border: 10px;
-    border-color: blue; */
+    flex-direction: row;  
+    gap: 5px;
+}
+
+#click{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+#sign {
+    position: absolute;
+    left: 30px;
+    top: 580px;
+}
+
+.register {
+    position: absolute;
+    width: 126px;
+    height: 44px;
+    right: 30px;
+    top: 570px;
+
+    background-color: #06b;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 }
